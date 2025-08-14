@@ -595,9 +595,7 @@
 	return input_key
 
 #if DM_VERSION > 515 // One day...
-#error Remie said that lummox was adding a way to get a lists
-#error contents via list.values, if that is true remove this
-#error otherwise, update the version and bug lummox
+#warn do i look like i know what list.values is
 #endif
 //Flattens a keyed list into a list of it's contents
 /proc/flatten_list(list/key_list)
